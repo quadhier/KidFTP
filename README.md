@@ -1,2 +1,2 @@
 # KidFTP
-simple ftp client and server
+simple ftp server
