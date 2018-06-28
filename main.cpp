@@ -1,7 +1,8 @@
-#include "iplist.h"
+#include "ftpserver.h"
 #include <iostream>
 
 int main()
 {
-	IPList iplist("blacklist.txt");
+	FTPServer server(4321, "blacklist.txt", "userlist.txt", ".");
+	server.run();
 }

@@ -1,2 +1,2 @@
 com:
-	g++ -g *cpp
+	g++ --std=c++11 -g *cpp
